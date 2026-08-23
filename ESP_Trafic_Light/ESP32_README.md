@@ -202,5 +202,5 @@ also in the source comments of `ros_controller.c`.
 ## 11. License / Authors
 
 Student project — Smart Traffic Light system. ESP32 firmware and micro-ROS
-integration implemented by [your name]. See the project's academic report for full
-architecture and design rationale.
+integration implemented by **Metin Sariaslan**. See the project's academic report
+for full architecture and design rationale.
