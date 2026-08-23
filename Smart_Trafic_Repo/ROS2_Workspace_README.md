@@ -231,5 +231,5 @@ ros2 topic echo /traffic/input/status/light1
 ## 11. License / Authors
 
 Student project — Smart Traffic Light system. Traffic-management ROS 2 nodes
-implemented by the team; this README covers the environment setup needed to run
-them alongside the ESP32 firmware repository.
+implemented by **Metin Sariaslan**. This README covers the environment setup needed
+to run them alongside the ESP32 firmware repository.
