@@ -1,0 +1,24 @@
+[0.846s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/install.log --single-version-externally-managed install_data
+[1.168s] running egg_info
+[1.193s] writing build/traffic_controller/traffic_controller.egg-info/PKG-INFO
+[1.193s] writing dependency_links to build/traffic_controller/traffic_controller.egg-info/dependency_links.txt
+[1.193s] writing entry points to build/traffic_controller/traffic_controller.egg-info/entry_points.txt
+[1.193s] writing requirements to build/traffic_controller/traffic_controller.egg-info/requires.txt
+[1.193s] writing top-level names to build/traffic_controller/traffic_controller.egg-info/top_level.txt
+[1.249s] reading manifest file 'build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[1.250s] writing manifest file 'build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[1.250s] running build
+[1.250s] running build_py
+[1.250s] copying traffic_controller/controller_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/build/lib/traffic_controller
+[1.250s] running install
+[1.259s] running install_lib
+[1.286s] copying /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/build/lib/traffic_controller/controller_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages/traffic_controller
+[1.287s] byte-compiling /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages/traffic_controller/controller_node.py to controller_node.cpython-312.pyc
+[1.290s] running install_data
+[1.290s] running install_egg_info
+[1.318s] removing '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[1.319s] Copying build/traffic_controller/traffic_controller.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info
+[1.319s] running install_scripts
+[1.507s] Installing controller_node script to /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/traffic_controller
+[1.508s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/install.log'
+[1.563s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller/build/traffic_controller/install.log --single-version-externally-managed install_data

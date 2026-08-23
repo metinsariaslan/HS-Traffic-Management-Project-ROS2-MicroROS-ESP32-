@@ -1,0 +1,27 @@
+[1.821s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data
+[2.205s] running egg_info
+[2.231s] writing ../../build/traffic_controller/traffic_controller.egg-info/PKG-INFO
+[2.231s] writing dependency_links to ../../build/traffic_controller/traffic_controller.egg-info/dependency_links.txt
+[2.232s] writing entry points to ../../build/traffic_controller/traffic_controller.egg-info/entry_points.txt
+[2.232s] writing requirements to ../../build/traffic_controller/traffic_controller.egg-info/requires.txt
+[2.232s] writing top-level names to ../../build/traffic_controller/traffic_controller.egg-info/top_level.txt
+[2.287s] reading manifest file '../../build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[2.289s] writing manifest file '../../build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[2.289s] running build
+[2.290s] running build_py
+[2.290s] copying traffic_controller/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build/lib/traffic_controller
+[2.293s] copying traffic_controller/controller_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build/lib/traffic_controller
+[2.294s] running install
+[2.303s] running install_lib
+[2.334s] copying /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build/lib/traffic_controller/controller_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller
+[2.335s] byte-compiling /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller/controller_node.py to controller_node.cpython-312.pyc
+[2.338s] running install_data
+[2.338s] copying resource/traffic_controller -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/ament_index/resource_index/packages
+[2.339s] copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller
+[2.339s] running install_egg_info
+[2.366s] removing '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.366s] Copying ../../build/traffic_controller/traffic_controller.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info
+[2.368s] running install_scripts
+[2.517s] Installing controller_node script to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/traffic_controller
+[2.517s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log'
+[2.569s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data

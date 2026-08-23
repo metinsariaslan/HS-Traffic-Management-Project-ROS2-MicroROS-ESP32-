@@ -1,0 +1,323 @@
+[0.153s] DEBUG:colcon:Command line arguments: ['/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/colcon', 'build']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78563998b710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78563998b4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78563998b4d0>>)
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/metinsariaslan/Smart_Trafic_Repo'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_vehicle_node) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emergency_vehicle_node' with type 'ros.ament_python' and name 'emergency_vehicle_node'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pedestrian_node) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pedestrian_node' with type 'ros.ament_python' and name 'pedestrian_node'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_common_data) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traffic_common_data' with type 'ros.ament_python' and name 'traffic_common_data'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_controller) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traffic_controller' with type 'ros.ament_python' and name 'traffic_controller'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_node) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_node' with type 'ros.ament_python' and name 'vehicle_node'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'emergency_vehicle_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'emergency_vehicle_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node', 'merge_install': False, 'path': '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'pedestrian_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'pedestrian_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node', 'merge_install': False, 'path': '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_common_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'traffic_common_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data', 'merge_install': False, 'path': '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'traffic_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'traffic_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller', 'merge_install': False, 'path': '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'vehicle_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node', 'merge_install': False, 'path': '/home/metinsariaslan/Smart_Trafic_Repo/src/vehicle_node', 'symlink_install': False, 'test_result_base': None}
+[0.283s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.284s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data' with build type 'ament_python'
+[0.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('traffic_common_data', 'ament_prefix_path')
+[0.288s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/ament_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node' with build type 'ament_python'
+[0.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_vehicle_node', 'ament_prefix_path')
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/ament_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/ament_prefix_path.dsv'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node' with build type 'ament_python'
+[0.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('pedestrian_node', 'ament_prefix_path')
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/ament_prefix_path.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/ament_prefix_path.sh'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller' with build type 'ament_python'
+[0.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('traffic_controller', 'ament_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/ament_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/ament_prefix_path.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/ament_prefix_path.sh'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data'
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.782s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node'
+[0.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node'
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.191s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller'
+[1.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_common_data build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log --single-version-externally-managed install_data
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pedestrian_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/install.log --single-version-externally-managed install_data
+[1.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log --single-version-externally-managed install_data
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller' for CMake module files
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller' for CMake config files
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib'
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/bin'
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/pkgconfig/traffic_controller.pc'
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages'
+[2.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('traffic_controller', 'pythonpath')
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/pythonpath.ps1'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/pythonpath.dsv'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/hook/pythonpath.sh'
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/bin'
+[2.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traffic_controller)
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/package.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/package.dsv'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/package.sh'
+[2.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/package.bash'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller/package.zsh'
+[2.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/colcon-core/packages/traffic_controller)
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data' for CMake module files
+[2.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_common_data build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log --single-version-externally-managed install_data
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data' for CMake config files
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/bin'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/pkgconfig/traffic_common_data.pc'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages'
+[2.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('traffic_common_data', 'pythonpath')
+[2.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/pythonpath.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/pythonpath.dsv'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/hook/pythonpath.sh'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/bin'
+[2.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traffic_common_data)
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/package.dsv'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/package.sh'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/package.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data/package.zsh'
+[2.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/colcon-core/packages/traffic_common_data)
+[2.366s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/metinsariaslan/Smart_Trafic_Repo/src/vehicle_node' with build type 'ament_python'
+[2.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_node', 'ament_prefix_path')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/ament_prefix_path.ps1'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/ament_prefix_path.dsv'
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/ament_prefix_path.sh'
+[2.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node' for CMake module files
+[2.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pedestrian_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/install.log --single-version-externally-managed install_data
+[2.374s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node' for CMake config files
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/bin'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/pkgconfig/pedestrian_node.pc'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages'
+[2.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('pedestrian_node', 'pythonpath')
+[2.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/pythonpath.ps1'
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/pythonpath.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/hook/pythonpath.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pedestrian_node)
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/package.ps1'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/package.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/package.sh'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/package.bash'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node/package.zsh'
+[2.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/colcon-core/packages/pedestrian_node)
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node' for CMake module files
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log --single-version-externally-managed install_data
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node' for CMake config files
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/bin'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/pkgconfig/emergency_vehicle_node.pc'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages'
+[2.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_vehicle_node', 'pythonpath')
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/pythonpath.ps1'
+[2.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/pythonpath.dsv'
+[2.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/hook/pythonpath.sh'
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/bin'
+[2.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emergency_vehicle_node)
+[2.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/package.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/package.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/package.sh'
+[2.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/package.bash'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node/package.zsh'
+[2.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/colcon-core/packages/emergency_vehicle_node)
+[2.610s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/metinsariaslan/Smart_Trafic_Repo/src/vehicle_node'
+[2.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/vehicle_node': AMENT_PREFIX_PATH=/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/install.log --single-version-externally-managed install_data
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node' for CMake module files
+[3.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/vehicle_node' returned '0': AMENT_PREFIX_PATH=/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/install.log --single-version-externally-managed install_data
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node' for CMake config files
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib'
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/bin'
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/pkgconfig/vehicle_node.pc'
+[3.547s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages'
+[3.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_node', 'pythonpath')
+[3.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/pythonpath.ps1'
+[3.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/pythonpath.dsv'
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/hook/pythonpath.sh'
+[3.548s] Level 1:colcon.colcon_core.environment:checking '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/bin'
+[3.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_node)
+[3.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/package.ps1'
+[3.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/package.dsv'
+[3.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/package.sh'
+[3.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/package.bash'
+[3.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node/package.zsh'
+[3.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/colcon-core/packages/vehicle_node)
+[3.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.552s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[3.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.554s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[3.574s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/metinsariaslan/Smart_Trafic_Repo/install/local_setup.ps1'
+[3.576s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/metinsariaslan/Smart_Trafic_Repo/install/_local_setup_util_ps1.py'
+[3.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/metinsariaslan/Smart_Trafic_Repo/install/setup.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/metinsariaslan/Smart_Trafic_Repo/install/local_setup.sh'
+[3.580s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/metinsariaslan/Smart_Trafic_Repo/install/_local_setup_util_sh.py'
+[3.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/metinsariaslan/Smart_Trafic_Repo/install/setup.sh'
+[3.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/metinsariaslan/Smart_Trafic_Repo/install/local_setup.bash'
+[3.583s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/metinsariaslan/Smart_Trafic_Repo/install/setup.bash'
+[3.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/metinsariaslan/Smart_Trafic_Repo/install/local_setup.zsh'
+[3.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/metinsariaslan/Smart_Trafic_Repo/install/setup.zsh'

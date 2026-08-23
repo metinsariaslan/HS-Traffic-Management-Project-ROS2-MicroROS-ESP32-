@@ -1,0 +1,22 @@
+[2.717s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log --single-version-externally-managed install_data
+[3.484s] running egg_info
+[3.526s] writing ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/PKG-INFO
+[3.526s] writing dependency_links to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/dependency_links.txt
+[3.530s] writing requirements to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/requires.txt
+[3.530s] writing top-level names to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/top_level.txt
+[3.645s] reading manifest file '../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/SOURCES.txt'
+[3.649s] writing manifest file '../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/SOURCES.txt'
+[3.649s] running build
+[3.650s] running build_py
+[3.650s] copying emergency_vehicle_node/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build/lib/emergency_vehicle_node
+[3.651s] running install
+[3.670s] running install_lib
+[3.735s] running install_data
+[3.736s] copying resource/emergency_vehicle_node -> /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/ament_index/resource_index/packages
+[3.737s] copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node
+[3.738s] running install_egg_info
+[3.848s] removing '/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node-0.0.0-py3.12.egg-info' (and everything under it)
+[3.852s] Copying ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node-0.0.0-py3.12.egg-info
+[3.853s] running install_scripts
+[4.087s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log'
+[4.270s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/emergency_vehicle_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_vehicle_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log --single-version-externally-managed install_data

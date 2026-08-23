@@ -1,0 +1,25 @@
+[1.691s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data
+[2.074s] running egg_info
+[2.101s] writing ../../build/traffic_controller/traffic_controller.egg-info/PKG-INFO
+[2.102s] writing dependency_links to ../../build/traffic_controller/traffic_controller.egg-info/dependency_links.txt
+[2.102s] writing entry points to ../../build/traffic_controller/traffic_controller.egg-info/entry_points.txt
+[2.102s] writing requirements to ../../build/traffic_controller/traffic_controller.egg-info/requires.txt
+[2.103s] writing top-level names to ../../build/traffic_controller/traffic_controller.egg-info/top_level.txt
+[2.151s] reading manifest file '../../build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[2.152s] writing manifest file '../../build/traffic_controller/traffic_controller.egg-info/SOURCES.txt'
+[2.153s] running build
+[2.153s] running build_py
+[2.153s] copying traffic_controller/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build/lib/traffic_controller
+[2.154s] copying traffic_controller/controller_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build/lib/traffic_controller
+[2.154s] running install
+[2.162s] running install_lib
+[2.187s] running install_data
+[2.187s] copying resource/traffic_controller -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/ament_index/resource_index/packages
+[2.187s] copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/share/traffic_controller
+[2.187s] running install_egg_info
+[2.213s] removing '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.214s] Copying ../../build/traffic_controller/traffic_controller.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages/traffic_controller-0.0.0-py3.12.egg-info
+[2.218s] running install_scripts
+[2.335s] Installing controller_node script to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/traffic_controller
+[2.335s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log'
+[2.396s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_controller/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_controller build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_controller/install.log --single-version-externally-managed install_data

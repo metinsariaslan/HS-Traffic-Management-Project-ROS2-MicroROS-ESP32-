@@ -1,0 +1,22 @@
+[1.969s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pedestrian_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/install.log --single-version-externally-managed install_data
+[2.420s] running egg_info
+[2.453s] writing ../../build/pedestrian_node/pedestrian_node.egg-info/PKG-INFO
+[2.454s] writing dependency_links to ../../build/pedestrian_node/pedestrian_node.egg-info/dependency_links.txt
+[2.454s] writing requirements to ../../build/pedestrian_node/pedestrian_node.egg-info/requires.txt
+[2.455s] writing top-level names to ../../build/pedestrian_node/pedestrian_node.egg-info/top_level.txt
+[2.518s] reading manifest file '../../build/pedestrian_node/pedestrian_node.egg-info/SOURCES.txt'
+[2.519s] writing manifest file '../../build/pedestrian_node/pedestrian_node.egg-info/SOURCES.txt'
+[2.520s] running build
+[2.520s] running build_py
+[2.520s] copying pedestrian_node/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/build/lib/pedestrian_node
+[2.520s] running install
+[2.534s] running install_lib
+[2.562s] running install_data
+[2.562s] copying resource/pedestrian_node -> /home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/ament_index/resource_index/packages
+[2.563s] copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/share/pedestrian_node
+[2.563s] running install_egg_info
+[2.595s] removing '/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages/pedestrian_node-0.0.0-py3.12.egg-info' (and everything under it)
+[2.595s] Copying ../../build/pedestrian_node/pedestrian_node.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages/pedestrian_node-0.0.0-py3.12.egg-info
+[2.596s] running install_scripts
+[2.758s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/install.log'
+[2.836s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/pedestrian_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/pedestrian_node/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pedestrian_node build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/pedestrian_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info
+writing ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/dependency_links.txt
+writing requirements to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/requires.txt
+writing top-level names to ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/top_level.txt
+writing manifest file '../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build/lib
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build/lib/emergency_vehicle_node
+copying emergency_vehicle_node/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build/lib/emergency_vehicle_node
+running install
+running install_lib
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node
+copying /home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/build/lib/emergency_vehicle_node/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node
+byte-compiling /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/ament_index
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/ament_index/resource_index
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/ament_index/resource_index/packages
+copying resource/emergency_vehicle_node -> /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/share/emergency_vehicle_node
+running install_egg_info
+Copying ../../build/emergency_vehicle_node/emergency_vehicle_node.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/emergency_vehicle_node/lib/python3.12/site-packages/emergency_vehicle_node-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/emergency_vehicle_node/install.log'

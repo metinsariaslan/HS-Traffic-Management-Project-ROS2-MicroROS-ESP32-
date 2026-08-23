@@ -1,0 +1,25 @@
+/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/vehicle_node/vehicle_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_node/vehicle_node.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_node/vehicle_node.egg-info/entry_points.txt
+writing requirements to ../../build/vehicle_node/vehicle_node.egg-info/requires.txt
+writing top-level names to ../../build/vehicle_node/vehicle_node.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_node/vehicle_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/vehicle_node/vehicle_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vehicle_node/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/build/lib/vehicle_node
+copying vehicle_node/vehicle_node.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/build/lib/vehicle_node
+running install
+running install_lib
+running install_data
+copying resource/vehicle_node -> /home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/share/vehicle_node
+running install_egg_info
+removing '/home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages/vehicle_node-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/vehicle_node/vehicle_node.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/python3.12/site-packages/vehicle_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing vehicle_node script to /home/metinsariaslan/Smart_Trafic_Repo/install/vehicle_node/lib/vehicle_node
+writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/vehicle_node/install.log'

@@ -1,0 +1,118 @@
+class ControlMode:
+    SELF_CONTROL = "SELF_CONTROL"
+    SMART = "SMART"
+    EMERGENCY = "EMERGENCY"
+
+
+class LightCommand:
+    RED = "RED"
+    YELLOW = "YELLOW"
+    GREEN = "GREEN"
+    NONE = "NONE"
+
+
+class VehicleType:
+    NORMAL = "normal"
+    EMERGENCY = "emergency"
+
+
+class EmergencyType:
+    AMBULANCE = "ambulance"
+    FIRE_TRUCK = "fire_truck"
+    POLICE = "police"
+    NONE = "none"
+
+
+class TrafficDensity:
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
+    NONE = "none"
+
+
+
+class CommandReason:
+    NORMAL_CYCLE = "normal_cycle"
+    PEDESTRIAN_REQUEST = "pedestrian_request"
+    EMERGENCY_PRIORITY = "emergency_priority"
+    LOCAL_CYCLE = "local_cycle"
+
+
+road_emergency_msg = {
+    "emergency_present": True,
+    "emergency_type": "ambulance",  # ambulance | fire_truck | police
+    "vehicle_id": "emg_01",
+    "road_id": "main",
+    "position": 18.2,
+    "speed": 1.2,
+    "siren_on": True,
+    "priority_level": 2,
+    "timestamp": 1744551000
+}
+
+
+pedestrian_light1_msg = {
+    "request_to_pass": True,
+    "request_time": 1744551000,
+    "light_id": "light1"
+}
+
+
+light1_status_msg = {
+    "active_mode": "SMART",
+    "current_state": "RED",  # RED | YELLOW | GREEN
+    "received_last_cmd": "NONE",
+    "lamp_ok": True,
+    "controller_alive": True,
+    "timestamp": 1744551002
+}
+
+
+road_register_msg = {
+    "vehicle_id": "veh_01",
+    "vehicle_type": "normal",
+    "road_id": "main",
+    "position": 12.5,
+    "speed": 0.8,
+    "direction": "forward",
+    "registered": True,
+    "timestamp": 1744551000
+}
+
+
+road_status_msg = {
+    "road_id": "main",
+    "registered_vehicle_count": 10,
+    "emergency_present": True,
+    "emergency_type": "ambulance",
+    "traffic_density": "medium",  # low | medium | high
+    "avg_speed": 0.7,
+    "timestamp": 1744551001
+}
+
+
+light1_cmd_msg = {
+    "control_mode": "SMART",  # SELF_CONTROL | SMART | EMERGENCY
+    "cmd": "NONE",            # RED | YELLOW | GREEN | NONE
+    "hold_time_ms": 5000,
+    "reason": "normal_cycle",  # normal_cycle | pedestrian_request | emergency_priority | local_cycle
+    "timestamp": 1744551005
+}
+
+
+registered_vehicles = {
+    "veh_01": {
+        "vehicle_type": "normal",
+        "road_id": "main",
+        "position": 12.5,
+        "speed": 0.8,
+        "last_seen": 1744551000
+    },
+    "emg_01": {
+        "vehicle_type": "emergency",
+        "road_id": "main",
+        "position": 18.2,
+        "speed": 1.2,
+        "last_seen": 1744551002
+    }
+}

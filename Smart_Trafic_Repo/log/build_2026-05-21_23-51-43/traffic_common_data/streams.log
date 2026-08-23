@@ -1,0 +1,23 @@
+[1.735s] Invoking command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_common_data build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log --single-version-externally-managed install_data
+[2.105s] running egg_info
+[2.131s] writing ../../build/traffic_common_data/traffic_common_data.egg-info/PKG-INFO
+[2.131s] writing dependency_links to ../../build/traffic_common_data/traffic_common_data.egg-info/dependency_links.txt
+[2.132s] writing requirements to ../../build/traffic_common_data/traffic_common_data.egg-info/requires.txt
+[2.132s] writing top-level names to ../../build/traffic_common_data/traffic_common_data.egg-info/top_level.txt
+[2.185s] reading manifest file '../../build/traffic_common_data/traffic_common_data.egg-info/SOURCES.txt'
+[2.186s] writing manifest file '../../build/traffic_common_data/traffic_common_data.egg-info/SOURCES.txt'
+[2.186s] running build
+[2.186s] running build_py
+[2.187s] copying traffic_common_data/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data
+[2.187s] copying traffic_common_data/Data_Struct_Topics.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data
+[2.187s] running install
+[2.194s] running install_lib
+[2.221s] running install_data
+[2.221s] copying resource/traffic_common_data -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/ament_index/resource_index/packages
+[2.221s] copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data
+[2.222s] running install_egg_info
+[2.248s] removing '/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data-0.0.0-py3.12.egg-info' (and everything under it)
+[2.248s] Copying ../../build/traffic_common_data/traffic_common_data.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data-0.0.0-py3.12.egg-info
+[2.249s] running install_scripts
+[2.372s] writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log'
+[2.412s] Invoked command in '/home/metinsariaslan/Smart_Trafic_Repo/src/traffic_common_data' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/prefix_override:/home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages:${PYTHONPATH} /home/metinsariaslan/.espressif/python_env/idf5.2_py3.12_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_common_data build --build-base /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build install --record /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log --single-version-externally-managed install_data

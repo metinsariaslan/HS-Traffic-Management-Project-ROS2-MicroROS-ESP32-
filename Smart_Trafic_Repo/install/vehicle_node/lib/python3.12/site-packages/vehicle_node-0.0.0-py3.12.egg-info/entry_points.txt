@@ -1,0 +1,2 @@
+[console_scripts]
+vehicle_node = vehicle_node.vehicle_node:main

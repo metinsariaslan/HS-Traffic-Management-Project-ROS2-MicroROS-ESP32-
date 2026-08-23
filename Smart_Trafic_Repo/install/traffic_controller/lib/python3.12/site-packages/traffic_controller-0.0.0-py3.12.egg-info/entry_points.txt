@@ -1,0 +1,2 @@
+[console_scripts]
+controller_node = traffic_controller.controller_node:main

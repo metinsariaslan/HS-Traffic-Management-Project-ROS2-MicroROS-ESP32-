@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/traffic_common_data/traffic_common_data.egg-info
+writing ../../build/traffic_common_data/traffic_common_data.egg-info/PKG-INFO
+writing dependency_links to ../../build/traffic_common_data/traffic_common_data.egg-info/dependency_links.txt
+writing requirements to ../../build/traffic_common_data/traffic_common_data.egg-info/requires.txt
+writing top-level names to ../../build/traffic_common_data/traffic_common_data.egg-info/top_level.txt
+writing manifest file '../../build/traffic_common_data/traffic_common_data.egg-info/SOURCES.txt'
+reading manifest file '../../build/traffic_common_data/traffic_common_data.egg-info/SOURCES.txt'
+writing manifest file '../../build/traffic_common_data/traffic_common_data.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib
+creating /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data
+copying traffic_common_data/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data
+copying traffic_common_data/Data_Struct_Topics.py -> /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data
+running install
+running install_lib
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data
+copying /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data/__init__.py -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data
+copying /home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/build/lib/traffic_common_data/Data_Struct_Topics.py -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data
+byte-compiling /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data/Data_Struct_Topics.py to Data_Struct_Topics.cpython-312.pyc
+running install_data
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/ament_index
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/ament_index/resource_index
+creating /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/ament_index/resource_index/packages
+copying resource/traffic_common_data -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/ament_index/resource_index/packages
+copying package.xml -> /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/share/traffic_common_data
+running install_egg_info
+Copying ../../build/traffic_common_data/traffic_common_data.egg-info to /home/metinsariaslan/Smart_Trafic_Repo/install/traffic_common_data/lib/python3.12/site-packages/traffic_common_data-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/metinsariaslan/Smart_Trafic_Repo/build/traffic_common_data/install.log'

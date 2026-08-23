@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/traffic_common_data"
+    ]
+}
