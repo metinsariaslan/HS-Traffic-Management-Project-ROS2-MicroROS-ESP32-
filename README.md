@@ -102,4 +102,4 @@ sub-project's own README. At a system level:
 - **Traffic Manager (Smart_Trafic_Repo) & ESP32 Firmware (ESP_Trafic_Light)** — Metin Sariaslan
 - **Emergency Simulation (`FinalVersion_TrafficLightRos`, MATLAB/Simulink)** —
   Atharav Karande, Maribel Corondo
-- **Research** — Daniel Dumila
+- **Research** — Daniel Akindumila
